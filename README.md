@@ -8,7 +8,7 @@ Step_1 -> Install h5py<br>
 Step_2 -> Download the ModelNet40 dataset and copy the files to data folder. Type the following command in the terminal and unzip the file.<br>
 <b>wget --no-check-certificate -P "pointnet/data" https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_v0.zip</b><br>
  Step_3 -> In terminal use "python train.py". After Training for evaluation run, "python evaluate.py"<br>
- 
+<b> I have not included the weight files here cause of it's size. But if you need the weight files you can pull a request, I can upload them to my drive </b>
  
 ![3D point cloud vase](https://github.com/SonuDileep/3-D-Object-Detection-using-PointNet/blob/master/vase.jpg)
 
