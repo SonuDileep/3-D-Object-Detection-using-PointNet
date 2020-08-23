@@ -6,7 +6,7 @@ Step_1 -> Install h5py<br>
           sudo apt-get install libhdf5-dev<br>
           sudo pip install h5py<br>
 Step_2 -> Download the ModelNet40 dataset and copy the files to data folder. Type the following command in the terminal and unzip the file.<br>
-wget --no-check-certificate -P "pointnet/data" https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_v0.zip<br>
+<b>wget --no-check-certificate -P "pointnet/data" https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_v0.zip</b><br>
  Step_3 -> In terminal use "python train.py". After Training for evaluation run, "python evaluate.py"<br>
  
  
